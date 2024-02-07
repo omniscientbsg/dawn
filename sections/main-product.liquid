@@ -695,31 +695,6 @@
       <script src="{{ 'product-model.js' | asset_url }}" defer></script>
     {%- endif -%}
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        function isIE() {
-          const ua = window.navigator.userAgent;
-          const msie = ua.indexOf('MSIE ');
-          const trident = ua.indexOf('Trident/');
-
-          return msie > 0 || trident > 0;
-        }
-
-        if (!isIE()) return;
-        const hiddenInput = document.querySelector('#{{ product_form_id }} input[name="id"]');
-        const noScriptInputWrapper = document.createElement('div');
-        const variantPicker = document.querySelector('variant-selects[data-section="{{ section.id }}"]');
-        noScriptInputWrapper.innerHTML = document.querySelector(
-          '.product-form__noscript-wrapper-{{ section.id }}'
-        ).textContent;
-        variantPicker.outerHTML = noScriptInputWrapper.outerHTML;
-
-        document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function (event) {
-          hiddenInput.value = event.currentTarget.value;
-        });
-      });
-    </script>
-
     {%- liquid
       if product.selected_or_first_available_variant.featured_media
         assign seo_media = product.selected_or_first_available_variant.featured_media
