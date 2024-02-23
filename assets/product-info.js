@@ -94,7 +94,9 @@ if (!customElements.get('product-info')) {
       #handleSwapProduct() {
         return (html) => {
           this.productModal?.remove();
-          this.swapProductUtility.viewTransition(this, html.querySelector('product-info'));
+          const newProduct = html.querySelector('product-info');
+          this.swapProductUtility.viewTransition(this, newProduct);
+          this.relatedProducts?.initializeRecommendations(newProduct.dataset.productId);
         };
       }
 
@@ -351,6 +353,12 @@ if (!customElements.get('product-info')) {
 
       get variantSelectors() {
         return this.querySelector('variant-selects');
+      }
+
+      get relatedProducts() {
+        const sectionId = this.dataset.originalSection || this.dataset.section;
+        const relatedProductsSectionId = SectionId.getIdForSection(SectionId.parseId(sectionId), 'related-products');
+        return document.querySelector(`product-recommendations[data-section-id="${relatedProductsSectionId}"]`);
       }
     }
   );

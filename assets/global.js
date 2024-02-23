@@ -6,6 +6,25 @@ function getFocusableElements(container) {
   );
 }
 
+class SectionId {
+  static #separator = '__';
+
+  // for a qualified section id (e.g. 'template--22224696705326__main'), return just the section id (e.g. 'template--22224696705326')
+  static parseId(qualifiedSectionId) {
+    return qualifiedSectionId.split(SectionId.#separator)[0];
+  }
+
+  // for a qualified section id (e.g. 'template--22224696705326__main'), return just the section name (e.g. 'main')
+  static parseSectionName(qualifiedSectionId) {
+    return qualifiedSectionId.split(SectionId.#separator)[1];
+  }
+
+  // for a section id (e.g. 'template--22224696705326') and a section name (e.g. 'recommended-products'), return a qualified section id (e.g. 'template--22224696705326__recommended-products')
+  static getIdForSection(sectionId, sectionName) {
+    return `${sectionId}${SectionId.#separator}${sectionName}`;
+  }
+}
+
 class HTMLUpdateUtility {
   #preProcessCallbacks = [];
   #postProcessCallbacks = [];
@@ -1066,39 +1085,24 @@ class ProductRecommendations extends HTMLElement {
   }
 
   connectedCallback() {
-    this.initializeRecommendations();
-
-    this.unsubscribeFromSectionRefresh = subscribe(PUB_SUB_EVENTS.sectionRefreshed, (event) => {
-      const sectionId = this.dataset.sectionId;
-      const isRelatedProduct = this.classList.contains('related-products');
-      const isParentSectionUpdated = sectionId && (event.data?.sectionId ?? '') === `${sectionId.split('__')[0]}__main`;
-
-      if (isRelatedProduct && isParentSectionUpdated) {
-        this.dataset.productId = event.data.resource.id;
-        this.initializeRecommendations();
-      }
-    });
+    this.initializeRecommendations(this.dataset.productId);
   }
 
-  disconnectedCallback() {
-    this.unsubscribeFromSectionRefresh();
-  }
-
-  initializeRecommendations() {
+  initializeRecommendations(productId) {
     this.observer?.unobserve(this);
     this.observer = new IntersectionObserver(
       (entries, observer) => {
         if (!entries[0].isIntersecting) return;
         observer.unobserve(this);
-        this.loadRecommendations();
+        this.loadRecommendations(productId);
       },
       { rootMargin: '0px 0px 400px 0px' }
     );
     this.observer.observe(this);
   }
 
-  loadRecommendations() {
-    fetch(`${this.dataset.url}&product_id=${this.dataset.productId}&section_id=${this.dataset.sectionId}`)
+  loadRecommendations(productId) {
+    fetch(`${this.dataset.url}&product_id=${productId}&section_id=${this.dataset.sectionId}`)
       .then((response) => response.text())
       .then((text) => {
         const html = document.createElement('div');
