@@ -97,6 +97,7 @@ if (!customElements.get('product-info')) {
           const newProduct = html.querySelector('product-info');
           this.swapProductUtility.viewTransition(this, newProduct);
           this.relatedProducts?.initializeRecommendations(newProduct.dataset.productId);
+          this.quickOrderList?.refresh();
         };
       }
 
@@ -358,7 +359,13 @@ if (!customElements.get('product-info')) {
       get relatedProducts() {
         const sectionId = this.dataset.originalSection || this.dataset.section;
         const relatedProductsSectionId = SectionId.getIdForSection(SectionId.parseId(sectionId), 'related-products');
-        return document.querySelector(`product-recommendations[data-section-id="${relatedProductsSectionId}"]`);
+        return document.querySelector(`product-recommendations[data-section-id^="${relatedProductsSectionId}"]`);
+      }
+
+      get quickOrderList() {
+        const sectionId = this.dataset.originalSection || this.dataset.section;
+        const quickOrderListSectionId = SectionId.getIdForSection(SectionId.parseId(sectionId), 'quick_order_list');
+        return document.querySelector(`quick-order-list[data-id^="${quickOrderListSectionId}"]`);
       }
     }
   );

@@ -69,7 +69,7 @@ if (!customElements.get('quick-add-modal')) {
       }
 
       preventVariantURLSwitching(productElement) {
-        productElement.querySelector('product-info')?.setAttribute('data-update-url', 'false');
+        productElement.querySelector('product-info').setAttribute('data-update-url', 'false');
       }
 
       removeDOMElements(productElement) {
