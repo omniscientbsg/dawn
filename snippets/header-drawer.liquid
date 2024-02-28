@@ -142,7 +142,7 @@
             {%- if localization.available_countries or localization.available_languages -%}
               <div class="menu-drawer__localization header-localization">
                 {%- if localization.available_countries and localization.available_countries.size > 1 -%}
-                  <localization-form class="no-js-hidden">
+                  <localization-form>
                     {%- form 'localization', id: 'HeaderCountryMobileForm', class: 'localization-form' -%}
                       <div>
                         <h2 class="visually-hidden" id="HeaderCountryMobileLabel">
@@ -155,7 +155,7 @@
                 {% endif %}
 
                 {%- if localization.available_languages and localization.available_languages.size > 1 -%}
-                  <localization-form class="no-js-hidden">
+                  <localization-form>
                     {%- form 'localization', id: 'HeaderLanguageMobileForm', class: 'localization-form' -%}
                       <div>
                         <h2 class="visually-hidden" id="HeaderLanguageMobileLabel">

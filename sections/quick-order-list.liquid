@@ -136,10 +136,7 @@
               </a>
               <div class="variant-remove-total">
                 {%- render 'loading-spinner' -%}
-                <quick-order-list-remove-all-button
-                  class="no-js-hidden"
-                  data-action="confirm"
-                >
+                <quick-order-list-remove-all-button data-action="confirm">
                   <button class="button button--tertiary" type="button">
                     {% render 'icon-remove' %}
                     <span class="text-body">{{ 'sections.quick_order_list.remove_all' | t }}</span>
@@ -193,10 +190,7 @@
               </a>
               <div class="variant-remove-total">
                 {%- render 'loading-spinner' -%}
-                <quick-order-list-remove-all-button
-                  class="no-js-hidden"
-                  data-action="confirm"
-                >
+                <quick-order-list-remove-all-button data-action="confirm">
                   <button class="button button--tertiary" type="button">
                     {% render 'icon-remove' %}
 
@@ -267,9 +261,7 @@
   "name": "t:sections.quick-order-list.name",
   "limit": 1,
   "enabled_on": {
-    "templates": [
-      "product"
-    ]
+    "templates": ["product"]
   },
   "settings": [
     {

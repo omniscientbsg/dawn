@@ -111,7 +111,7 @@
               %}
             {%- when 'video' -%}
               <div class="collage-card {% if section.settings.card_styles == 'none' %}global-media-settings{% else %}{{ section.settings.card_styles }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
-                <modal-opener class="no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
+                <modal-opener data-modal="#PopupModal-{{ block.id }}">
                   <div class="deferred-media">
                     <button
                       class="deferred-media__poster full-unstyled-link"
@@ -214,10 +214,7 @@
   "tag": "section",
   "class": "section",
   "disabled_on": {
-    "groups": [
-      "header",
-      "footer"
-    ]
+    "groups": ["header", "footer"]
   },
   "settings": [
     {
@@ -379,10 +376,7 @@
         {
           "type": "video_url",
           "id": "video_url",
-          "accept": [
-            "youtube",
-            "vimeo"
-          ],
+          "accept": ["youtube", "vimeo"],
           "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
           "label": "t:sections.collage.blocks.video.settings.video_url.label",
           "placeholder": "t:sections.collage.blocks.video.settings.video_url.placeholder",
