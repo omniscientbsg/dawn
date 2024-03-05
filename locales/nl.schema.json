@@ -56,8 +56,8 @@
       "name": "Social media",
       "settings": {
         "social_twitter_link": {
-          "label": "X / voorheen Twitter",
-          "info": "https://x.com/shopify"
+          "label": "Twitter",
+          "info": "https://twitter.com/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
