@@ -1,28 +1,103 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "d959a4f7-55a9-43a6-ad47-60c68b461c26": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
+        "template--15745398833291__d959a4f7-55a9-43a6-ad47-60c68b461c26-slide-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "heading": "You Are What You Eat!",
+            "heading_size": "h2",
+            "subheading": "We believe \" The food manufacturer is more important to your children health than the pediatrician\"",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Qb994m": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vs1.png",
+            "heading": "Pure Royalty in             Every Bite",
+            "heading_size": "h1",
+            "subheading": "Experience pure decadence in every all-natural mithai.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_fbwGHF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-1_d1504446-c42a-4625-8f17-6b25f4585b57.png",
+            "heading": "Wholesome Elegance",
+            "heading_size": "h1",
+            "subheading": "Savor the essence of tradition in every bite of our Indian mithai, where wholesome ingredients intertwine with elegant flavors, creating a symphony of wholesome elegance for your palate.",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15745398833291__d959a4f7-55a9-43a6-ad47-60c68b461c26-slide-1",
+        "slide_Qb994m",
+        "slide_fbwGHF"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "f58fae1e-eeb4-416d-aa11-d89175bc8235": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15745398833291__f58fae1e-eeb4-416d-aa11-d89175bc8235-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "<strong>Our Mission<\/strong>",
+            "heading_size": "h1"
           }
         },
-        "text": {
+        "template--15745398833291__f58fae1e-eeb4-416d-aa11-d89175bc8235-text-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "<p><strong>This is the only time in 1000 years that the new generation is expected to have a shorter life span than the previous one due to toxicity.<\/strong><\/p><p><strong>Vedic Spoons, as a brand, believes in the revival of the traditional Indian food in a healthier and a more tasty way. We strive to provide our customers with premium quality food which contains no added preservatives as well as no added artificial colour or essence. <\/strong><\/p>"
           }
         },
-        "button": {
-          "type": "buttons",
+        "template--15745398833291__f58fae1e-eeb4-416d-aa11-d89175bc8235-button-1": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -30,48 +105,328 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--15745398833291__f58fae1e-eeb4-416d-aa11-d89175bc8235-heading-1",
+        "template--15745398833291__f58fae1e-eeb4-416d-aa11-d89175bc8235-text-1",
+        "template--15745398833291__f58fae1e-eeb4-416d-aa11-d89175bc8235-button-1"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "slideshow_YEWx7n": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_EpFkpD": {
+          "type": "slide",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/saffron-pistils-and-flowers-1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "text": {
-          "type": "text",
+        "slide_8T4bie": {
+          "type": "slide",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/4.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_kMV9dy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amla_oil_1024x1024_1d98311a-e8bc-4903-9f9d-38529aa7cd5a.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_ztCV9W": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-03-03_at_4.08.34_PM.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "slide_EpFkpD",
+        "slide_8T4bie",
+        "slide_kMV9dy",
+        "slide_ztCV9W"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_9LNadG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_df6dth": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have identified age-old proven Ayurvedic recipes, researched why they lost their values over time. We have then identified better ingredients to make those products tastier & healthier. We are avoiding traditional mediums of Retail selling as the product does not remain fresh & without preservatives. Instead, we aim to make our products as per order & deliver directly to you so that you always receive Exclusive High Quality Freshly made goodies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_df6dth"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_MhHxdb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8A6xQb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Nutriprash Benefits<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_yfTXYq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nutriprash is an Ayurvedic blend of Chyawanprash, Drakshavaleha & Bhrama Rasayana, which are the greatest boons of Ayurveda to Mankind. Nutriprash has all fruits, spices & herbs combined in precise proportion to a synergistic effect. This whole is more powerful than the sum of its parts. Its pleasant natural aromatic aroma & taste makes it palatable for all age groups ~ from Children to Elderly people. The Draksh(Raisins) add a cooling effect, thus making it suitable to be had even during the summer months. It is freshly prepared & delivered without the use of any preservatives. It contains the goodness of Amla, Almonds, Raisins, Saffron, Honey and a lot of other healthy natural ingredients which make it delicious.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_R7RNkW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/nutriprash",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8A6xQb",
+        "text_yfTXYq",
+        "button_R7RNkW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nutri_1.5x.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "multicolumn_w6VJKL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VkCMF6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EFFICASY_CHART_PNG.png",
+            "title": "<strong>Twice More Effective<\/strong>",
+            "text": "<p>Delivered Fresh within 15 Days of Manufacturing<\/p><p>Has 2 times more tannin as compared to a 180 day product.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LPBhCq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fresh-amla-1677563264-6781593.jpg",
+            "title": "<strong>Why is fresh Amla better than powdered Amla?<\/strong>",
+            "text": "<p>Amla holds the highest amounts of Vitamin C, almost three times as an orange. It is easy to lose these vitamins from dry amla to oxidization. But with our way of using fresh amla, we ensure that you avail all its health benefits.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GXYrDd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no_p_no_e.png",
+            "title": "<strong>Free From Preservatives<\/strong>",
+            "text": "<p>Preservatives hinder absorption of vitamin B causing a weak nervous system.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VkCMF6",
+        "column_LPBhCq",
+        "column_GXYrDd"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_hEEFea": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_peb4dp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slider-4.jpg",
+            "heading": "Good For All Seasons",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pKyJU4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slider-1.jpg",
+            "heading": "Good For All Seasons",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_EReEmk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slider-2_bd949809-8354-40b2-9590-d1d07a611f0c.jpg",
+            "heading": "Good For All Seasons",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Upy9M9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Slider-3.jpg",
+            "heading": "Good For All Seasons",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_peb4dp",
+        "slide_pKyJU4",
+        "slide_EReEmk",
+        "slide_Upy9M9"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection": {
@@ -79,132 +434,134 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
+    "collection_list_Em7TLn": {
+      "type": "collection-list",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "featured_collection_gVJHcE": {
+          "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "syrups-without-any-artificial-essence-colour-or-preservatives"
           }
         },
-        "product": {
-          "type": "product",
+        "featured_collection_tdEfEc": {
+          "type": "featured_collection",
           "settings": {
-            "product": "",
-            "second_image": false
+            "collection": "date-nuts-seeds"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "featured_collection_VpPRdb": {
+          "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "sandesh"
+          }
+        },
+        "featured_collection_JcQWpq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-hampers"
+          }
+        },
+        "featured_collection_cURtN9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-packings"
+          }
+        },
+        "featured_collection_4Vidkh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "platters"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "featured_collection_gVJHcE",
+        "featured_collection_tdEfEc",
+        "featured_collection_VpPRdb",
+        "featured_collection_JcQWpq",
+        "featured_collection_cURtN9",
+        "featured_collection_4Vidkh"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "title": "Collections",
         "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "video": {
+    "video_JBXbMJ": {
       "type": "video",
       "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
+        "heading": "Some Of The Gift Options",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/Diwali Gifting for Friends & Corporates..mp4",
+        "video_url": "",
         "description": "",
         "full_width": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
+    "featured_blog_rcbYGg": {
+      "type": "featured-blog",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
+        "heading": "Blog posts",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
+    "d959a4f7-55a9-43a6-ad47-60c68b461c26",
+    "f58fae1e-eeb4-416d-aa11-d89175bc8235",
+    "slideshow_YEWx7n",
+    "rich_text_9LNadG",
+    "image_with_text_MhHxdb",
+    "multicolumn_w6VJKL",
+    "slideshow_hEEFea",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "collection_list_Em7TLn",
+    "video_JBXbMJ",
+    "featured_blog_rcbYGg"
   ]
 }

@@ -54,9 +54,31 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
+        "collapsible_tab_U3HVAH": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "Discription",
+            "icon": "none",
+            "content": "<p>Nutriprash is an Ayurvedic blend of Chyawanprash, Drakshavaleha & Bhrama Rasayana, which are the greatest boons of Ayurveda to Mankind. Nutriprash has all fruits, spices & herbs combined in precise proportion to a synergistic effect. This whole is more powerful than the sum of its parts. Its pleasant natural aromatic aroma & taste makes it palatable for all age groups ~ from Children to Elderly people. The Draksh(Raisins) add a cooling effect, thus making it suitable to be had even during the summer months. It is freshly prepared & delivered without the use of any preservatives. It contains the goodness of Amla, Almonds, Raisins, Saffron, Honey and a lot of other healthy natural ingredients which make it delicious.<\/p><p>Mothers will no longer have to force any prash on kids, We Promise! <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LRpA7D": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "none",
+            "content": "<p>Since it is semisolid, Nutriprash can only be shipped by surface within India. It is Shipped from Mumbai & takes 3 to 8 working days depending on location. We air courier all over the world. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_WfWRbG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Storage",
+            "icon": "none",
+            "content": "<p>As we don't use Preservatives, and comparatively less sugar, It has a shelf life of 2 months. If a sealed jar is Refrigerated, it can be stored for a period of 12 months.<\/p>",
+            "page": ""
           }
         },
         "share": {
@@ -65,7 +87,7 @@
             "share_label": "Share"
           }
         },
-        "custom_liquid_NYf3UY": {
+        "custom_liquid_U3yMCg": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% unless product == empty %}\n  <script type=\"application\/json\" id=\"ProductJson-{{ section.id }}\">\n    {{ product | json }}\n  <\/script>\n{% endunless %}\n​"
@@ -80,9 +102,11 @@
         "quantity_selector",
         "subscriptions_app_block_jPFbQn",
         "buy_buttons",
-        "description",
+        "collapsible_tab_U3HVAH",
+        "collapsible_tab_LRpA7D",
+        "collapsible_tab_WfWRbG",
         "share",
-        "custom_liquid_NYf3UY"
+        "custom_liquid_U3yMCg"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -90,11 +114,11 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "mobile_thumbnails": "show",
-        "hide_variants": false,
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 16,
         "padding_bottom": 0

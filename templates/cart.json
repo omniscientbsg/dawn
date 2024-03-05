@@ -3,6 +3,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -15,6 +16,11 @@
           "settings": {
           }
         },
+        "bird_pickup_delivery_app_block_Wn8AGa": {
+          "type": "shopify:\/\/apps\/bird-pickup-delivery\/blocks\/app-block\/6e8f5020-fc3a-4acd-a31a-fb627c0270cf",
+          "settings": {
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -23,33 +29,25 @@
       },
       "block_order": [
         "subtotal",
+        "bird_pickup_delivery_app_block_Wn8AGa",
         "buttons"
-      ]
-    },
-    "featured-collection": {
-      "type": "featured-collection",
+      ],
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "1708867309e4a65e0d": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "featured-collection"
+    "1708867309e4a65e0d"
   ]
 }
